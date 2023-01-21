@@ -1,0 +1,11 @@
+// const add = require('./oper');
+// console.log(add(6, 6));
+// const oper = require('./oper');
+// console.log(oper.add(6, 5));
+// console.log(oper.sub(6, 5));
+const { add, sub, mul, name, div } = require('./oper');
+console.log(add(6, 5));
+console.log(sub(6, 5));
+console.log(mul(6, 5));
+console.log(div(6, 5));
+console.log(name);
